@@ -4,6 +4,8 @@ general:
   privacypolicy_url: false  # https://example.com/privacy
   contact_url: false        # mailto:contact@example.com
   enable_metrics: true      # record stats
+  legal_name: ""
+  legal_url:
 
 brand:
   new_issue_url: https://github.com/searxng/searxng/issues/new
@@ -11,6 +13,10 @@ brand:
   public_instances: https://searx.space
   wiki_url: https://github.com/searxng/searxng/wiki
   issue_url: https://github.com/searxng/searxng/issues
+  website_name_1: ""
+  website_url_1:
+  website_name_2: ""
+  website_url_2:
 
 search:
   # Filter results. 0: None, 1: Moderate, 2: Strict
